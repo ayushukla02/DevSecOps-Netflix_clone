@@ -9,7 +9,7 @@ pipeline {
         string(name: 'GIT_URL', defaultValue: 'https://github.com/ayushukla02/        git remote set-url origin https://github.com/ayushukla02/DevSecOps-Netflix_clone.git.git', description: 'Git repository URL')
         string(name: 'GIT_BRANCH', defaultValue: 'main', description: 'Git branch to check out')
         string(name: 'DOCKER_USER', defaultValue: 'ayushukla02', description: 'Docker Hub username')
-        string(name: 'IMAGE_NAME', defaultValue: 'netflix-clone', description: 'Name of the image')
+        string(name: 'IMAGE_NAME', defaultValue: 'netflix', description: 'Name of the image')
     }
 
     environment {
